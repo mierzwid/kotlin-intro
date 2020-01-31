@@ -8,8 +8,8 @@ fun fib(n: Int): Int = when (n) {
     else -> fib(n - 1) + fib(n - 2)
 }
 
-fun isPrime(number: Int) = if (number < 2) {
+fun isPrime(n: Int) = if (n < 2) {
     false
 } else {
-    (2 until sqrt(number.toDouble()).toInt() ).none { number % it == 0 }
+    (2 until n).none { n % it == 0 }
 }

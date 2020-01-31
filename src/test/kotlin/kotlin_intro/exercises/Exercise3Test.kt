@@ -1,10 +1,12 @@
 package kotlin_intro.exercises
 
+import io.kotlintest.fail
 import io.kotlintest.shouldBe
 import io.kotlintest.specs.StringSpec
 
 class Exercise3Test : StringSpec({
     "application plugin" {
+        fail("Please uncomment me and implement code needed!")
 //        //given
 //        val applicationPlugin = application {
 //            mainClassName = "com.cognified.Main"
@@ -19,6 +21,7 @@ class Exercise3Test : StringSpec({
     }
 
     "HTML builder" {
+        fail("Please uncomment me and implement code needed!")
 //        //given
 //        val document = html {
 //            body {
