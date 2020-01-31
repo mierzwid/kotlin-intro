@@ -14,6 +14,8 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     testImplementation("io.kotlintest:kotlintest-runner-junit5:3.3.0")
+    testImplementation("org.slf4j:slf4j-simple:1.7.5")
+    testImplementation("org.slf4j:slf4j-api:1.6.4")
 }
 
 tasks {

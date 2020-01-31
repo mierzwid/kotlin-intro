@@ -36,6 +36,8 @@ class Exercise2Test : StringSpec({
 
         //when
         val result = generateCast(names, roles)
+
+        //then
         result shouldBe """
             Zebrowski Michal as Geralt A WITCHER!
             Duryasz Wojciech as Stary wiedzmin A WITCHER!
