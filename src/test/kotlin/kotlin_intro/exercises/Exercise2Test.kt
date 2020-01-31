@@ -5,7 +5,7 @@ import io.kotlintest.should
 import io.kotlintest.shouldBe
 import io.kotlintest.specs.StringSpec
 
-class Exercise1Test : StringSpec({
+class Exercise2Test : StringSpec({
     "should generate Witchers cast" {
         //given
         val names = listOf(
