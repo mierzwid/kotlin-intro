@@ -6,7 +6,7 @@ import io.kotlintest.specs.StringSpec
 import io.kotlintest.tables.row
 
 class Exercise1Test : StringSpec({
-    "check Fibonacci numbers" {
+    "Calculate Fibonacci numbers" {
         //given
         forall(
             row(0, 0),
@@ -29,7 +29,7 @@ class Exercise1Test : StringSpec({
         }
     }
 
-    "check prime numbers" {
+    "Check if number is Prime" {
         //given
         forall(
             row(1, false),
