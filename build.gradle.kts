@@ -5,6 +5,8 @@ plugins {
 group = "kotlin-intro"
 version = "1.0-SNAPSHOT"
 
+defaultTasks("test")
+
 repositories {
     mavenCentral()
 }
