@@ -30,7 +30,7 @@ class Exercise2Test : StringSpec({
             "Kaplan Jarrow",
             "Druid",
             "Gascaden",
-            "Clovis",
+            null,
             "Jaskier"
         )
 
@@ -47,7 +47,7 @@ class Exercise2Test : StringSpec({
             Lotocki Lech as Kaplan Jarrow
             Szenajch Andrzej as Druid
             Nowikowski Jaroslaw as Gascaden
-            Janiczek Arkadiusz as Clovis
+            Janiczek Arkadiusz as UNDEFINED
             Zamachowski Zbigniew as Jaskier A BARD!
         """.trimIndent()
     }
