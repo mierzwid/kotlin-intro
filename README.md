@@ -14,7 +14,8 @@ val names = listOf(
     "Lech Lotocki",
     "Andrzej Szenajch",
     "Jaroslaw Nowikowski",
-    "Arkadiusz Janiczek"
+    "Arkadiusz Janiczek",
+    "Zbigniew Zamachowski"
 )
 
 val roles = listOf(
@@ -26,7 +27,8 @@ val roles = listOf(
     "Kaplan Jarrow",
     "Druid",
     "Gascaden",
-    "Clovis"
+    "Clovis",
+    "Jaskier"
 )
 ```
 
@@ -41,4 +43,5 @@ Lotocki Lech as Kaplan Jarrow
 Szenajch Andrzej as Druid
 Nowikowski Jaroslaw as Gascaden
 Janiczek Arkadiusz as Clovis
+Zamachowski Zbigniew as Jaskier A BARD!
 ```

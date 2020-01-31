@@ -17,7 +17,8 @@ class Exercise1Test : StringSpec({
             "Lech Lotocki",
             "Andrzej Szenajch",
             "Jaroslaw Nowikowski",
-            "Arkadiusz Janiczek"
+            "Arkadiusz Janiczek",
+            "Zbigniew Zamachowski"
         )
 
         val roles = listOf(
@@ -29,7 +30,8 @@ class Exercise1Test : StringSpec({
             "Kaplan Jarrow",
             "Druid",
             "Gascaden",
-            "Clovis"
+            "Clovis",
+            "Jaskier"
         )
 
         //when
@@ -44,6 +46,7 @@ class Exercise1Test : StringSpec({
             Szenajch Andrzej as Druid
             Nowikowski Jaroslaw as Gascaden
             Janiczek Arkadiusz as Clovis
+            Zamachowski Zbigniew as Jaskier A BARD!
         """.trimIndent()
     }
 })
